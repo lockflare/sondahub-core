@@ -1,0 +1,25 @@
+{
+  "name": "sondahub-core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Mock APIs that answer like real ones: three populated, related worlds (Store, Social, Helpdesk) over REST, GraphQL, WebSocket and SSE, with validation, business rules, writes that stick in memory, and HTTP test endpoints. A curated MIT version of sondahub.",
+  "homepage": "https://sondahub.com",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "esbuild src/main.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/sondahub-core.js",
+    "start": "node dist/sondahub-core.js",
+    "test": "tsx test/test.ts",
+    "check": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
