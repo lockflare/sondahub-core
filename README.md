@@ -112,6 +112,10 @@ Dev dependencies only: TypeScript, tsx, esbuild and @types/node.
 
 [sondahub.com](https://sondahub.com) runs the full hub, free: more worlds, more protocols, vendor sandboxes and testing tools, nothing to install. It is the playground for [LockFlare Sonda](https://lockflare.com/sonda), an API client.
 
+## Contributions
+
+This repository does not take contributions; forks are welcome under the MIT License.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The code is yours to use; the names are not part of the license — see [TRADEMARKS.md](TRADEMARKS.md).
