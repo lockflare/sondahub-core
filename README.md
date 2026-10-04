@@ -1,5 +1,7 @@
 # sondahub-core
 
+[![CI](https://github.com/lockflare/sondahub-core/actions/workflows/ci.yml/badge.svg)](https://github.com/lockflare/sondahub-core/actions/workflows/ci.yml)
+
 Mock APIs that answer like real ones. Three populated, related worlds — an online **Store**, a **Social** network and a **Helpdesk**, about 54,000 records in all — over REST, GraphQL, WebSocket and Server-Sent Events, with real validation, business rules and writes that stick. Plus a set of HTTP test endpoints for everything a client has to get right that is not a business API.
 
 sondahub-core is a curated version of [sondahub](https://sondahub.com), released under the MIT License. No database, no accounts, no keys, no runtime dependencies: one Node process.
